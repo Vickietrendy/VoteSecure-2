@@ -1,0 +1,43 @@
+/* src/components/TechnologyPage.css */
+.technology-page {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    color: #b318da;
+  }
+  
+  .technology-page h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .tech-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .tech-feature {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .tech-feature img {
+    max-width: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-feature h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .tech-feature p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,66 @@
+/* src/components/AboutUsPage.css */
+.about-page {
+  padding: 4rem 2rem;
+  background-color: white;
+  color: #5918da;
+  font-family: Arial, sans-serif;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-text h2 {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 32px;
+}
+
+.mission-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.mission-section h2 {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.mission-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
